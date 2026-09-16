@@ -1,0 +1,6 @@
+# ModelSim / QuestaSim 仿真产生的临时文件和目录
+work/
+transcript
+*.wlf
+*.vstf
+vsim.wlf
