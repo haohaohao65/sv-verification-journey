@@ -23,7 +23,6 @@ initial begin
     //清空释放
     d_arr.delete();
     $display("4.清空后大小：%0d", d_arr.size()); //输出0
-    
 end
 
 endmodule
