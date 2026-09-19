@@ -11,28 +11,47 @@ dut_mux2to1 dut(
     .y(y)
 );
 
+bit expected;
+assign expected=sel?b:a;
+
+task check_result(input logic a,input logic b);
+if(a!==b)
+$display("FAIL");
+else
+$display("PASS");
+endtask
+
 initial begin
     a=0;
     b=0;
     sel=0;
+    #0
     $display ("y=%0d",y);
-    #10ns begin a=0;
+   check_result(y,expected);
+
+    #10ns 
+    a=0;
     b=1;
     sel=0;
-    end
+    #0
     $display ("y=%0d",y);
-    #10ns begin
+    check_result(y,expected);
+
+    #10ns 
     a=0;
     b=1;
     sel=1;
-    end
+    #0
     $display ("y=%0d",y);
-    #10ns begin
+    check_result(y,expected);
+
+    #10ns 
     a=1;
     b=0;
     sel=1;
-    end
+    #0
     $display ("y=%0d",y);
+    check_result(y,expected);
 end
 
 endmodule
