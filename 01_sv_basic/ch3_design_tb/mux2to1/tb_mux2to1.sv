@@ -21,36 +21,27 @@ else
 $display("PASS");
 endtask
 
+task drive(input logic x,input logic y,input logic z);
+a=x;
+b=y;
+sel=z;
+#0;
+endtask
+
 initial begin
-    a=0;
-    b=0;
-    sel=0;
-    #0
-    $display ("y=%0d",y);
+   drive(0,0,0);
    check_result(y,expected);
 
     #10ns 
-    a=0;
-    b=1;
-    sel=0;
-    #0
-    $display ("y=%0d",y);
+    drive(0,1,0);
     check_result(y,expected);
 
     #10ns 
-    a=0;
-    b=1;
-    sel=1;
-    #0
-    $display ("y=%0d",y);
+    drive(0,1,1);
     check_result(y,expected);
 
     #10ns 
-    a=1;
-    b=0;
-    sel=1;
-    #0
-    $display ("y=%0d",y);
+    drive(1,0,1);
     check_result(y,expected);
 end
 
