@@ -11,9 +11,6 @@ dut_mux2to1 dut(
     .y(y)
 );
 
-bit expected;
-assign expected=sel?b:a;
-
 task check_result(input logic a,input logic b);
 if(a!==b)
 $display("FAIL");
@@ -28,21 +25,24 @@ sel=z;
 #0;
 endtask
 
+task test_case(input logic in_a,input logic in_b,input logic in_sel);
+bit expected;
+expected=in_sel?in_b:in_a;
+drive(in_a,in_b,in_sel);
+check_result(y,expected);
+endtask
+
 initial begin
-   drive(0,0,0);
-   check_result(y,expected);
+   test_case(0,0,0);
 
     #10ns 
-    drive(0,1,0);
-    check_result(y,expected);
+    test_case(0,1,0);
 
     #10ns 
-    drive(0,1,1);
-    check_result(y,expected);
+    test_case(0,1,1);
 
     #10ns 
-    drive(1,0,1);
-    check_result(y,expected);
+    test_case(1,0,1);
 end
 
 endmodule
