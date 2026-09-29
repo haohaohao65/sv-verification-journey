@@ -1,6 +1,13 @@
-# ModelSim / QuestaSim 仿真产生的临时文件和目录
+# ModelSim
 work/
 transcript
 *.wlf
-*.vstf
-vsim.wlf
+
+# ModelSim project files
+*.mpf
+*.mti
+*.bak
+
+# OS
+Thumbs.db
+.DS_Store
