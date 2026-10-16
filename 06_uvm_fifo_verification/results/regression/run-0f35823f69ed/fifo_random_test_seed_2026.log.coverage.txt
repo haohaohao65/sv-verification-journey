@@ -1,0 +1,138 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /fifo_tb_pkg
+=== Design Unit: work.fifo_tb_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          5        na        na        na
+            Covergroup Bins         28        28         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /fifo_tb_pkg/fifo_coverage/fifo_cg              100.00%        100          -    Covered              
+    covered/total bins:                                    28         28          -                      
+    missing/total bins:                                     0         28          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cg_a                                   100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin free                                          261          1          -    Covered              
+        bin only_read                                      50          1          -    Covered              
+        bin only_write                                     46          1          -    Covered              
+        bin read_and_write                                 60          1          -    Covered              
+    Coverpoint cg_b                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin din0                                           24          1          -    Covered              
+        bin din1                                           12          1          -    Covered              
+        bin din2                                           70          1          -    Covered              
+    Coverpoint cg_c                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin count0                                         41          1          -    Covered              
+        bin count1                                        350          1          -    Covered              
+        bin count2                                         26          1          -    Covered              
+    Cross op_x_data                                   100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <read_and_write,din2>                      44          1          -    Covered              
+            bin <only_write,din2>                          26          1          -    Covered              
+            bin <read_and_write,din1>                       4          1          -    Covered              
+            bin <read_and_write,din0>                      12          1          -    Covered              
+            bin <only_write,din1>                           8          1          -    Covered              
+            bin <only_write,din0>                          12          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin free_onlyread                        0                     -    ZERO                 
+    Cross op_x_count                                  100.00%        100          -    Covered              
+        covered/total bins:                                12         12          -                      
+        missing/total bins:                                 0         12          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <read_and_write,count2>                     5          1          -    Covered              
+            bin <only_write,count2>                         3          1          -    Covered              
+            bin <only_read,count2>                          3          1          -    Covered              
+            bin <free,count2>                              15          1          -    Covered              
+            bin <read_and_write,count1>                    47          1          -    Covered              
+            bin <only_write,count1>                        39          1          -    Covered              
+            bin <only_read,count1>                         43          1          -    Covered              
+            bin <free,count1>                             221          1          -    Covered              
+            bin <read_and_write,count0>                     8          1          -    Covered              
+            bin <only_write,count0>                         4          1          -    Covered              
+            bin <only_read,count0>                          4          1          -    Covered              
+            bin <free,count0>                              25          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /fifo_tb_pkg/fifo_coverage/fifo_cg              100.00%        100          -    Covered              
+    covered/total bins:                                    28         28          -                      
+    missing/total bins:                                     0         28          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cg_a                                   100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin free                                          261          1          -    Covered              
+        bin only_read                                      50          1          -    Covered              
+        bin only_write                                     46          1          -    Covered              
+        bin read_and_write                                 60          1          -    Covered              
+    Coverpoint cg_b                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin din0                                           24          1          -    Covered              
+        bin din1                                           12          1          -    Covered              
+        bin din2                                           70          1          -    Covered              
+    Coverpoint cg_c                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin count0                                         41          1          -    Covered              
+        bin count1                                        350          1          -    Covered              
+        bin count2                                         26          1          -    Covered              
+    Cross op_x_data                                   100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <read_and_write,din2>                      44          1          -    Covered              
+            bin <only_write,din2>                          26          1          -    Covered              
+            bin <read_and_write,din1>                       4          1          -    Covered              
+            bin <read_and_write,din0>                      12          1          -    Covered              
+            bin <only_write,din1>                           8          1          -    Covered              
+            bin <only_write,din0>                          12          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin free_onlyread                        0                     -    ZERO                 
+    Cross op_x_count                                  100.00%        100          -    Covered              
+        covered/total bins:                                12         12          -                      
+        missing/total bins:                                 0         12          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <read_and_write,count2>                     5          1          -    Covered              
+            bin <only_write,count2>                         3          1          -    Covered              
+            bin <only_read,count2>                          3          1          -    Covered              
+            bin <free,count2>                              15          1          -    Covered              
+            bin <read_and_write,count1>                    47          1          -    Covered              
+            bin <only_write,count1>                        39          1          -    Covered              
+            bin <only_read,count1>                         43          1          -    Covered              
+            bin <free,count1>                             221          1          -    Covered              
+            bin <read_and_write,count0>                     8          1          -    Covered              
+            bin <only_write,count0>                         4          1          -    Covered              
+            bin <only_read,count0>                          4          1          -    Covered              
+            bin <free,count0>                              25          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 100.00%
+

@@ -1,0 +1,62 @@
+{
+  "Status": "FAIL",
+  "CompileLog": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-fba42513a6a5\\compile.log",
+  "Passed": 0,
+  "FailedOrNotRun": 6,
+  "Tests": [
+    {
+      "Test": "fifo_test",
+      "Status": "NOT_RUN",
+      "ExitCode": 1,
+      "Errors": null,
+      "Fatals": null,
+      "Reason": "Compilation failed",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-fba42513a6a5\\compile.log"
+    },
+    {
+      "Test": "fifo_order_test",
+      "Status": "NOT_RUN",
+      "ExitCode": 1,
+      "Errors": null,
+      "Fatals": null,
+      "Reason": "Compilation failed",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-fba42513a6a5\\compile.log"
+    },
+    {
+      "Test": "fifo_boundary_test",
+      "Status": "NOT_RUN",
+      "ExitCode": 1,
+      "Errors": null,
+      "Fatals": null,
+      "Reason": "Compilation failed",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-fba42513a6a5\\compile.log"
+    },
+    {
+      "Test": "fifo_simultaneous_test",
+      "Status": "NOT_RUN",
+      "ExitCode": 1,
+      "Errors": null,
+      "Fatals": null,
+      "Reason": "Compilation failed",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-fba42513a6a5\\compile.log"
+    },
+    {
+      "Test": "fifo_wrap_test",
+      "Status": "NOT_RUN",
+      "ExitCode": 1,
+      "Errors": null,
+      "Fatals": null,
+      "Reason": "Compilation failed",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-fba42513a6a5\\compile.log"
+    },
+    {
+      "Test": "fifo_reset_test",
+      "Status": "NOT_RUN",
+      "ExitCode": 1,
+      "Errors": null,
+      "Fatals": null,
+      "Reason": "Compilation failed",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-fba42513a6a5\\compile.log"
+    }
+  ]
+}

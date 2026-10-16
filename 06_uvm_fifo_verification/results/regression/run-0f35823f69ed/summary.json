@@ -1,0 +1,108 @@
+{
+  "Status": "PASS",
+  "CompileLog": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-0f35823f69ed\\compile.log",
+  "Passed": 10,
+  "FailedOrNotRun": 0,
+  "Tests": [
+    {
+      "Test": "fifo_test",
+      "Seed": null,
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-0f35823f69ed\\fifo_test.log"
+    },
+    {
+      "Test": "fifo_order_test",
+      "Seed": null,
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-0f35823f69ed\\fifo_order_test.log"
+    },
+    {
+      "Test": "fifo_boundary_test",
+      "Seed": null,
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-0f35823f69ed\\fifo_boundary_test.log"
+    },
+    {
+      "Test": "fifo_simultaneous_test",
+      "Seed": null,
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-0f35823f69ed\\fifo_simultaneous_test.log"
+    },
+    {
+      "Test": "fifo_wrap_test",
+      "Seed": null,
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-0f35823f69ed\\fifo_wrap_test.log"
+    },
+    {
+      "Test": "fifo_reset_test",
+      "Seed": null,
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-0f35823f69ed\\fifo_reset_test.log"
+    },
+    {
+      "Test": "fifo_burst_test",
+      "Seed": null,
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-0f35823f69ed\\fifo_burst_test.log"
+    },
+    {
+      "Test": "fifo_random_test",
+      "Seed": 1,
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-0f35823f69ed\\fifo_random_test_seed_1.log"
+    },
+    {
+      "Test": "fifo_random_test",
+      "Seed": 42,
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-0f35823f69ed\\fifo_random_test_seed_42.log"
+    },
+    {
+      "Test": "fifo_random_test",
+      "Seed": 2026,
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-0f35823f69ed\\fifo_random_test_seed_2026.log"
+    }
+  ]
+}

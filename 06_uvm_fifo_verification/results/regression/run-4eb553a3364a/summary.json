@@ -1,0 +1,17 @@
+{
+  "Status": "FAIL",
+  "CompileLog": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-4eb553a3364a\\compile.log",
+  "Passed": 0,
+  "FailedOrNotRun": 1,
+  "Tests": [
+    {
+      "Test": "fifo_missing_test",
+      "Status": "FAIL",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 1.0,
+      "Reason": "Requested test did not start; Missing FINAL PASS; UVM failure reported; Nonzero UVM error/fatal count",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-4eb553a3364a\\fifo_missing_test.log"
+    }
+  ]
+}

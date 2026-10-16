@@ -1,0 +1,28 @@
+{
+  "Status": "PASS",
+  "CompileLog": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-67e13d627278\\compile.log",
+  "Passed": 2,
+  "FailedOrNotRun": 0,
+  "Tests": [
+    {
+      "Test": "fifo_test",
+      "Seed": null,
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-67e13d627278\\fifo_test.log"
+    },
+    {
+      "Test": "fifo_random_test",
+      "Seed": 42,
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-67e13d627278\\fifo_random_test_seed_42.log"
+    }
+  ]
+}

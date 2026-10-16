@@ -17,6 +17,12 @@ module tb;
         .f_if(f_if)
     );
 
+    fifo_assertion #(.DATA_WIDTH(DATA_WIDTH),
+                     .DEPTH(DEPTH))
+    assertion(
+        .f_if(f_if)
+    );
+
 Environment #(DATA_WIDTH,DEPTH) env;
 
 initial begin

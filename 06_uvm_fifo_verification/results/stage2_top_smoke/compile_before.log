@@ -1,0 +1,10 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 20:20:47 on Oct 11,2026
+vlog -sv -work work E:\IC_Verification\sv-verification-journey\06_uvm_fifo_verification\tb\fifo_if.sv E:\IC_Verification\sv-verification-journey\06_uvm_fifo_verification\dut\sync_fifo.v E:\IC_Verification\sv-verification-journey\06_uvm_fifo_verification\tb\tb_top.sv 
+-- Compiling interface fifo_if
+-- Compiling module sync_fifo
+-- Compiling module tb_top
+** Error: E:\IC_Verification\sv-verification-journey\06_uvm_fifo_verification\tb\tb_top.sv(32): (vlog-2730) Undefined variable: 'w_enb'.
+** Error: E:\IC_Verification\sv-verification-journey\06_uvm_fifo_verification\tb\tb_top.sv(33): (vlog-2730) Undefined variable: 'r_enb'.
+End time: 20:20:47 on Oct 11,2026, Elapsed time: 0:00:00
+Errors: 2, Warnings: 0

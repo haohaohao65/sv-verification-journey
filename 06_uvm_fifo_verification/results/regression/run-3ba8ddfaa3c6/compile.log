@@ -1,0 +1,39 @@
+# do "E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification/sim/run_uvm_start.do" "E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification" "" compile
+# E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification
+# E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification
+# both
+# compile
+# E:/modeltech64_2020.4/verilog_src/uvm-1.2/src
+# E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification/sim/build/uvm_start
+# reading modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap mtiUvm uvm12 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 20:35:01 on Oct 15,2026
+# vlog -sv -timescale 1ns/1ps "+define+UVM_NO_DPI" "+incdir+E:/modeltech64_2020.4/verilog_src/uvm-1.2/src" -work mtiUvm E:/modeltech64_2020.4/verilog_src/uvm-1.2/src/uvm_pkg.sv 
+# -- Compiling package uvm_pkg (uvm-1.2 Built-in)
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:35:02 on Oct 15,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 20:35:02 on Oct 15,2026
+# vlog -sv -L mtiUvm "+define+UVM_NO_DPI" "+incdir+E:/modeltech64_2020.4/verilog_src/uvm-1.2/src" "+incdir+E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification/tb" -work work E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification/tb/fifo_if.sv E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification/dut/sync_fifo.v E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification/tb/fifo_tb_pkg.sv E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification/tb/tb_top.sv 
+# -- Compiling interface fifo_if
+# -- Compiling module sync_fifo
+# -- Compiling package fifo_tb_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.2 Built-in)
+# -- Compiling package tb_top_sv_unit
+# -- Importing package fifo_tb_pkg
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 20:35:03 on Oct 15,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# FIFO_COMPILE_OK

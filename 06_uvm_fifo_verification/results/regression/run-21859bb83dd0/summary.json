@@ -1,0 +1,62 @@
+{
+  "Status": "PASS",
+  "CompileLog": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-21859bb83dd0\\compile.log",
+  "Passed": 6,
+  "FailedOrNotRun": 0,
+  "Tests": [
+    {
+      "Test": "fifo_test",
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-21859bb83dd0\\fifo_test.log"
+    },
+    {
+      "Test": "fifo_order_test",
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-21859bb83dd0\\fifo_order_test.log"
+    },
+    {
+      "Test": "fifo_boundary_test",
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-21859bb83dd0\\fifo_boundary_test.log"
+    },
+    {
+      "Test": "fifo_simultaneous_test",
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-21859bb83dd0\\fifo_simultaneous_test.log"
+    },
+    {
+      "Test": "fifo_wrap_test",
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-21859bb83dd0\\fifo_wrap_test.log"
+    },
+    {
+      "Test": "fifo_reset_test",
+      "Status": "PASS",
+      "ExitCode": 0,
+      "Errors": 0.0,
+      "Fatals": 0.0,
+      "Reason": "",
+      "Log": "E:\\IC_Verification\\sv-verification-journey\\06_uvm_fifo_verification\\results\\regression\\run-21859bb83dd0\\fifo_reset_test.log"
+    }
+  ]
+}

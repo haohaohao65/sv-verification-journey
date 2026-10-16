@@ -2,6 +2,14 @@
 work/
 transcript
 *.wlf
+uvm12/
+sim/build/
+modelsim.ini
+*.ucdb
+*.vcd
+vsim_stacktrace.vstf
+wlft*
+*.log.console.txt
 
 # ModelSim project files
 *.mpf

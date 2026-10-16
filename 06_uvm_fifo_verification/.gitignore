@@ -1,0 +1,11 @@
+# 专用仿真构建目录
+sim/build/
+
+# 常见仿真生成物
+work/
+uvm12/
+transcript
+*.wlf
+*.ucdb
+*.vcd
+vsim_stacktrace.vstf

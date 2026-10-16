@@ -1,0 +1,947 @@
+# do "E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification/sim/run_uvm_start.do" "E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification" "fifo_random_test" run "42" "E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification/results/regression/run-67e13d627278/fifo_random_test_seed_42.log.coverage.txt"
+# E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification
+# E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification
+# fifo_random_test
+# both
+# run
+# 42
+# E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification/results/regression/run-67e13d627278/fifo_random_test_seed_42.log.coverage.txt
+# E:/modeltech64_2020.4/verilog_src/uvm-1.2/src
+# E:/IC_Verification/sv-verification-journey/06_uvm_fifo_verification/sim/build/uvm_start
+# reading modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap mtiUvm uvm12 
+# Modifying modelsim.ini
+# vsim -onfinish stop -nodpiexports -L mtiUvm
+# FIFO_RANDOM_SEED=42
+# vsim -onfinish stop -nodpiexports -L mtiUvm -sv_seed 42 work.tb_top
+# vsim -onfinish stop -nodpiexports -L mtiUvm -sv_seed 42 work.tb_top +TESTNAME=fifo_random_test
+# vsim -onfinish stop -nodpiexports -L mtiUvm -sv_seed 42 work.tb_top "+TESTNAME=fifo_random_test" 
+# Start time: 08:03:38 on Oct 16,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# different random seeds from your non-debug simulations.
+# Loading sv_std.std
+# Loading work.fifo_if(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.fifo_tb_pkg(fast)
+# Loading work.tb_top_sv_unit(fast)
+# Loading work.tb_top(fast)
+# UVM_INFO E:/modeltech64_2020.4/verilog_src/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+# ----------------------------------------------------------------
+# UVM-1.2
+# (C) 2007-2014 Mentor Graphics Corporation
+# (C) 2007-2014 Cadence Design Systems, Inc.
+# (C) 2006-2014 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# (C) 2013-2014 NVIDIA Corporation
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO @ 0 ns: reporter [RNTST] Running test fifo_random_test...
+# UVM_INFO E:/modeltech64_2020.4/verilog_src/uvm-1.2/src/base/uvm_traversal.svh(279) @ 0 ns: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+# begin time = 0 ns
+# [5 ns]sam:reset=1,w_enb=0,r_enb=0,din=0,dout=0,empty=1,full=0
+# pass
+# [15 ns]sam:reset=1,w_enb=0,r_enb=0,din=0,dout=0,empty=1,full=0
+# pass
+# reset cancel,time = 20 ns
+# [25 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=0,empty=1,full=0
+# pass
+# [35 ns]sam:reset=0,w_enb=0,r_enb=0,din=e636,dout=0,empty=1,full=0
+# pass
+# [45 ns]sam:reset=0,w_enb=0,r_enb=0,din=e636,dout=0,empty=1,full=0
+# pass
+# [55 ns]sam:reset=0,w_enb=0,r_enb=1,din=bcdc,dout=0,empty=1,full=0
+# pass
+# [65 ns]sam:reset=0,w_enb=0,r_enb=0,din=bcdc,dout=0,empty=1,full=0
+# pass
+# [75 ns]sam:reset=0,w_enb=0,r_enb=1,din=0,dout=0,empty=1,full=0
+# pass
+# [85 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=0,empty=1,full=0
+# pass
+# [95 ns]sam:reset=0,w_enb=0,r_enb=0,din=13f6,dout=0,empty=1,full=0
+# pass
+# [105 ns]sam:reset=0,w_enb=0,r_enb=0,din=13f6,dout=0,empty=1,full=0
+# pass
+# [115 ns]sam:reset=0,w_enb=1,r_enb=1,din=e1d5,dout=0,empty=0,full=0
+# pass
+# [125 ns]sam:reset=0,w_enb=0,r_enb=0,din=e1d5,dout=0,empty=0,full=0
+# pass
+# [135 ns]sam:reset=0,w_enb=0,r_enb=0,din=158b,dout=0,empty=0,full=0
+# pass
+# [145 ns]sam:reset=0,w_enb=0,r_enb=0,din=158b,dout=0,empty=0,full=0
+# pass
+# [155 ns]sam:reset=0,w_enb=1,r_enb=1,din=e126,dout=e1d5,empty=0,full=0
+# pass
+# [165 ns]sam:reset=0,w_enb=0,r_enb=0,din=e126,dout=e1d5,empty=0,full=0
+# pass
+# [175 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=e1d5,empty=0,full=0
+# pass
+# [185 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=e1d5,empty=0,full=0
+# pass
+# [195 ns]sam:reset=0,w_enb=1,r_enb=1,din=0,dout=e126,empty=0,full=0
+# pass
+# [205 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=e126,empty=0,full=0
+# pass
+# [215 ns]sam:reset=0,w_enb=1,r_enb=1,din=f6ed,dout=0,empty=0,full=0
+# pass
+# [225 ns]sam:reset=0,w_enb=0,r_enb=0,din=f6ed,dout=0,empty=0,full=0
+# pass
+# [235 ns]sam:reset=0,w_enb=1,r_enb=0,din=2f65,dout=0,empty=0,full=0
+# pass
+# [245 ns]sam:reset=0,w_enb=0,r_enb=0,din=2f65,dout=0,empty=0,full=0
+# pass
+# [255 ns]sam:reset=0,w_enb=1,r_enb=0,din=5227,dout=0,empty=0,full=0
+# pass
+# [265 ns]sam:reset=0,w_enb=0,r_enb=0,din=5227,dout=0,empty=0,full=0
+# pass
+# [275 ns]sam:reset=0,w_enb=1,r_enb=1,din=7bd4,dout=f6ed,empty=0,full=0
+# pass
+# [285 ns]sam:reset=0,w_enb=0,r_enb=0,din=7bd4,dout=f6ed,empty=0,full=0
+# pass
+# [295 ns]sam:reset=0,w_enb=1,r_enb=0,din=0,dout=f6ed,empty=0,full=0
+# pass
+# [305 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=f6ed,empty=0,full=0
+# pass
+# [315 ns]sam:reset=0,w_enb=0,r_enb=1,din=90f8,dout=2f65,empty=0,full=0
+# pass
+# [325 ns]sam:reset=0,w_enb=0,r_enb=0,din=90f8,dout=2f65,empty=0,full=0
+# pass
+# [335 ns]sam:reset=0,w_enb=1,r_enb=1,din=369a,dout=5227,empty=0,full=0
+# pass
+# [345 ns]sam:reset=0,w_enb=0,r_enb=0,din=369a,dout=5227,empty=0,full=0
+# pass
+# [355 ns]sam:reset=0,w_enb=0,r_enb=0,din=7113,dout=5227,empty=0,full=0
+# pass
+# [365 ns]sam:reset=0,w_enb=0,r_enb=0,din=7113,dout=5227,empty=0,full=0
+# pass
+# [375 ns]sam:reset=0,w_enb=1,r_enb=0,din=ffff,dout=5227,empty=0,full=0
+# pass
+# [385 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=5227,empty=0,full=0
+# pass
+# [395 ns]sam:reset=0,w_enb=1,r_enb=0,din=df8,dout=5227,empty=0,full=0
+# pass
+# [405 ns]sam:reset=0,w_enb=0,r_enb=0,din=df8,dout=5227,empty=0,full=0
+# pass
+# [415 ns]sam:reset=0,w_enb=1,r_enb=0,din=558d,dout=5227,empty=0,full=0
+# pass
+# [425 ns]sam:reset=0,w_enb=0,r_enb=0,din=558d,dout=5227,empty=0,full=0
+# pass
+# [435 ns]sam:reset=0,w_enb=0,r_enb=0,din=4adc,dout=5227,empty=0,full=0
+# pass
+# [445 ns]sam:reset=0,w_enb=0,r_enb=0,din=4adc,dout=5227,empty=0,full=0
+# pass
+# [455 ns]sam:reset=0,w_enb=1,r_enb=0,din=b9d7,dout=5227,empty=0,full=0
+# pass
+# [465 ns]sam:reset=0,w_enb=0,r_enb=0,din=b9d7,dout=5227,empty=0,full=0
+# pass
+# [475 ns]sam:reset=0,w_enb=0,r_enb=1,din=d294,dout=7bd4,empty=0,full=0
+# pass
+# [485 ns]sam:reset=0,w_enb=0,r_enb=0,din=d294,dout=7bd4,empty=0,full=0
+# pass
+# [495 ns]sam:reset=0,w_enb=0,r_enb=0,din=c615,dout=7bd4,empty=0,full=0
+# pass
+# [505 ns]sam:reset=0,w_enb=0,r_enb=0,din=c615,dout=7bd4,empty=0,full=0
+# pass
+# [515 ns]sam:reset=0,w_enb=0,r_enb=0,din=1724,dout=7bd4,empty=0,full=0
+# pass
+# [525 ns]sam:reset=0,w_enb=0,r_enb=0,din=1724,dout=7bd4,empty=0,full=0
+# pass
+# [535 ns]sam:reset=0,w_enb=1,r_enb=0,din=3458,dout=7bd4,empty=0,full=0
+# pass
+# [545 ns]sam:reset=0,w_enb=0,r_enb=0,din=3458,dout=7bd4,empty=0,full=0
+# pass
+# [555 ns]sam:reset=0,w_enb=0,r_enb=0,din=8d51,dout=7bd4,empty=0,full=0
+# pass
+# [565 ns]sam:reset=0,w_enb=0,r_enb=0,din=8d51,dout=7bd4,empty=0,full=0
+# pass
+# [575 ns]sam:reset=0,w_enb=0,r_enb=0,din=bb48,dout=7bd4,empty=0,full=0
+# pass
+# [585 ns]sam:reset=0,w_enb=0,r_enb=0,din=bb48,dout=7bd4,empty=0,full=0
+# pass
+# [595 ns]sam:reset=0,w_enb=0,r_enb=1,din=5e62,dout=0,empty=0,full=0
+# pass
+# [605 ns]sam:reset=0,w_enb=0,r_enb=0,din=5e62,dout=0,empty=0,full=0
+# pass
+# [615 ns]sam:reset=0,w_enb=0,r_enb=0,din=75b1,dout=0,empty=0,full=0
+# pass
+# [625 ns]sam:reset=0,w_enb=0,r_enb=0,din=75b1,dout=0,empty=0,full=0
+# pass
+# [635 ns]sam:reset=0,w_enb=0,r_enb=1,din=af2a,dout=369a,empty=0,full=0
+# pass
+# [645 ns]sam:reset=0,w_enb=0,r_enb=0,din=af2a,dout=369a,empty=0,full=0
+# pass
+# [655 ns]sam:reset=0,w_enb=1,r_enb=0,din=a494,dout=369a,empty=0,full=0
+# pass
+# [665 ns]sam:reset=0,w_enb=0,r_enb=0,din=a494,dout=369a,empty=0,full=0
+# pass
+# [675 ns]sam:reset=0,w_enb=0,r_enb=0,din=109e,dout=369a,empty=0,full=0
+# pass
+# [685 ns]sam:reset=0,w_enb=0,r_enb=0,din=109e,dout=369a,empty=0,full=0
+# pass
+# [695 ns]sam:reset=0,w_enb=0,r_enb=1,din=96e5,dout=ffff,empty=0,full=0
+# pass
+# [705 ns]sam:reset=0,w_enb=0,r_enb=0,din=96e5,dout=ffff,empty=0,full=0
+# pass
+# [715 ns]sam:reset=0,w_enb=0,r_enb=1,din=55e8,dout=df8,empty=0,full=0
+# pass
+# [725 ns]sam:reset=0,w_enb=0,r_enb=0,din=55e8,dout=df8,empty=0,full=0
+# pass
+# [735 ns]sam:reset=0,w_enb=0,r_enb=1,din=6172,dout=558d,empty=0,full=0
+# pass
+# [745 ns]sam:reset=0,w_enb=0,r_enb=0,din=6172,dout=558d,empty=0,full=0
+# pass
+# [755 ns]sam:reset=0,w_enb=0,r_enb=1,din=19f9,dout=b9d7,empty=0,full=0
+# pass
+# [765 ns]sam:reset=0,w_enb=0,r_enb=0,din=19f9,dout=b9d7,empty=0,full=0
+# pass
+# [775 ns]sam:reset=0,w_enb=1,r_enb=0,din=3c3d,dout=b9d7,empty=0,full=0
+# pass
+# [785 ns]sam:reset=0,w_enb=0,r_enb=0,din=3c3d,dout=b9d7,empty=0,full=0
+# pass
+# [795 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=b9d7,empty=0,full=0
+# pass
+# [805 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=b9d7,empty=0,full=0
+# pass
+# [815 ns]sam:reset=0,w_enb=0,r_enb=0,din=be47,dout=b9d7,empty=0,full=0
+# pass
+# [825 ns]sam:reset=0,w_enb=0,r_enb=0,din=be47,dout=b9d7,empty=0,full=0
+# pass
+# [835 ns]sam:reset=0,w_enb=1,r_enb=1,din=9bae,dout=3458,empty=0,full=0
+# pass
+# [845 ns]sam:reset=0,w_enb=0,r_enb=0,din=9bae,dout=3458,empty=0,full=0
+# pass
+# [855 ns]sam:reset=0,w_enb=0,r_enb=1,din=8a58,dout=a494,empty=0,full=0
+# pass
+# [865 ns]sam:reset=0,w_enb=0,r_enb=0,din=8a58,dout=a494,empty=0,full=0
+# pass
+# [875 ns]sam:reset=0,w_enb=1,r_enb=1,din=3cb0,dout=3c3d,empty=0,full=0
+# pass
+# [885 ns]sam:reset=0,w_enb=0,r_enb=0,din=3cb0,dout=3c3d,empty=0,full=0
+# pass
+# [895 ns]sam:reset=0,w_enb=0,r_enb=0,din=e7ba,dout=3c3d,empty=0,full=0
+# pass
+# [905 ns]sam:reset=0,w_enb=0,r_enb=0,din=e7ba,dout=3c3d,empty=0,full=0
+# pass
+# [915 ns]sam:reset=0,w_enb=1,r_enb=0,din=2c2f,dout=3c3d,empty=0,full=0
+# pass
+# [925 ns]sam:reset=0,w_enb=0,r_enb=0,din=2c2f,dout=3c3d,empty=0,full=0
+# pass
+# [935 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=3c3d,empty=0,full=0
+# pass
+# [945 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=3c3d,empty=0,full=0
+# pass
+# [955 ns]sam:reset=0,w_enb=1,r_enb=1,din=ffff,dout=9bae,empty=0,full=0
+# pass
+# [965 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=9bae,empty=0,full=0
+# pass
+# [975 ns]sam:reset=0,w_enb=0,r_enb=0,din=c68b,dout=9bae,empty=0,full=0
+# pass
+# [985 ns]sam:reset=0,w_enb=0,r_enb=0,din=c68b,dout=9bae,empty=0,full=0
+# pass
+# [995 ns]sam:reset=0,w_enb=0,r_enb=1,din=a86a,dout=3cb0,empty=0,full=0
+# pass
+# [1005 ns]sam:reset=0,w_enb=0,r_enb=0,din=a86a,dout=3cb0,empty=0,full=0
+# pass
+# [1015 ns]sam:reset=0,w_enb=0,r_enb=1,din=902e,dout=2c2f,empty=0,full=0
+# pass
+# [1025 ns]sam:reset=0,w_enb=0,r_enb=0,din=902e,dout=2c2f,empty=0,full=0
+# pass
+# [1035 ns]sam:reset=0,w_enb=1,r_enb=1,din=4bbe,dout=ffff,empty=0,full=0
+# pass
+# [1045 ns]sam:reset=0,w_enb=0,r_enb=0,din=4bbe,dout=ffff,empty=0,full=0
+# pass
+# [1055 ns]sam:reset=0,w_enb=1,r_enb=0,din=704,dout=ffff,empty=0,full=0
+# pass
+# [1065 ns]sam:reset=0,w_enb=0,r_enb=0,din=704,dout=ffff,empty=0,full=0
+# pass
+# [1075 ns]sam:reset=0,w_enb=0,r_enb=0,din=2fa8,dout=ffff,empty=0,full=0
+# pass
+# [1085 ns]sam:reset=0,w_enb=0,r_enb=0,din=2fa8,dout=ffff,empty=0,full=0
+# pass
+# [1095 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=ffff,empty=0,full=0
+# pass
+# [1105 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=ffff,empty=0,full=0
+# pass
+# [1115 ns]sam:reset=0,w_enb=0,r_enb=0,din=fb1c,dout=ffff,empty=0,full=0
+# pass
+# [1125 ns]sam:reset=0,w_enb=0,r_enb=0,din=fb1c,dout=ffff,empty=0,full=0
+# pass
+# [1135 ns]sam:reset=0,w_enb=1,r_enb=1,din=0,dout=4bbe,empty=0,full=0
+# pass
+# [1145 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=4bbe,empty=0,full=0
+# pass
+# [1155 ns]sam:reset=0,w_enb=1,r_enb=0,din=502,dout=4bbe,empty=0,full=0
+# pass
+# [1165 ns]sam:reset=0,w_enb=0,r_enb=0,din=502,dout=4bbe,empty=0,full=0
+# pass
+# [1175 ns]sam:reset=0,w_enb=0,r_enb=0,din=1cb1,dout=4bbe,empty=0,full=0
+# pass
+# [1185 ns]sam:reset=0,w_enb=0,r_enb=0,din=1cb1,dout=4bbe,empty=0,full=0
+# pass
+# [1195 ns]sam:reset=0,w_enb=1,r_enb=0,din=ffff,dout=4bbe,empty=0,full=0
+# pass
+# [1205 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=4bbe,empty=0,full=0
+# pass
+# [1215 ns]sam:reset=0,w_enb=0,r_enb=1,din=5a20,dout=704,empty=0,full=0
+# pass
+# [1225 ns]sam:reset=0,w_enb=0,r_enb=0,din=5a20,dout=704,empty=0,full=0
+# pass
+# [1235 ns]sam:reset=0,w_enb=1,r_enb=1,din=8eac,dout=0,empty=0,full=0
+# pass
+# [1245 ns]sam:reset=0,w_enb=0,r_enb=0,din=8eac,dout=0,empty=0,full=0
+# pass
+# [1255 ns]sam:reset=0,w_enb=1,r_enb=0,din=7d16,dout=0,empty=0,full=0
+# pass
+# [1265 ns]sam:reset=0,w_enb=0,r_enb=0,din=7d16,dout=0,empty=0,full=0
+# pass
+# [1275 ns]sam:reset=0,w_enb=1,r_enb=0,din=ffe5,dout=0,empty=0,full=0
+# pass
+# [1285 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffe5,dout=0,empty=0,full=0
+# pass
+# [1295 ns]sam:reset=0,w_enb=0,r_enb=1,din=9fca,dout=502,empty=0,full=0
+# pass
+# [1305 ns]sam:reset=0,w_enb=0,r_enb=0,din=9fca,dout=502,empty=0,full=0
+# pass
+# [1315 ns]sam:reset=0,w_enb=1,r_enb=1,din=ffff,dout=ffff,empty=0,full=0
+# pass
+# [1325 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=ffff,empty=0,full=0
+# pass
+# [1335 ns]sam:reset=0,w_enb=0,r_enb=0,din=a5d2,dout=ffff,empty=0,full=0
+# pass
+# [1345 ns]sam:reset=0,w_enb=0,r_enb=0,din=a5d2,dout=ffff,empty=0,full=0
+# pass
+# [1355 ns]sam:reset=0,w_enb=1,r_enb=0,din=80ed,dout=ffff,empty=0,full=0
+# pass
+# [1365 ns]sam:reset=0,w_enb=0,r_enb=0,din=80ed,dout=ffff,empty=0,full=0
+# pass
+# [1375 ns]sam:reset=0,w_enb=1,r_enb=0,din=7e7f,dout=ffff,empty=0,full=0
+# pass
+# [1385 ns]sam:reset=0,w_enb=0,r_enb=0,din=7e7f,dout=ffff,empty=0,full=0
+# pass
+# [1395 ns]sam:reset=0,w_enb=1,r_enb=1,din=0,dout=8eac,empty=0,full=0
+# pass
+# [1405 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=8eac,empty=0,full=0
+# pass
+# [1415 ns]sam:reset=0,w_enb=0,r_enb=1,din=ffff,dout=7d16,empty=0,full=0
+# pass
+# [1425 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=7d16,empty=0,full=0
+# pass
+# [1435 ns]sam:reset=0,w_enb=0,r_enb=1,din=8c21,dout=ffe5,empty=0,full=0
+# pass
+# [1445 ns]sam:reset=0,w_enb=0,r_enb=0,din=8c21,dout=ffe5,empty=0,full=0
+# pass
+# [1455 ns]sam:reset=0,w_enb=0,r_enb=0,din=ed50,dout=ffe5,empty=0,full=0
+# pass
+# [1465 ns]sam:reset=0,w_enb=0,r_enb=0,din=ed50,dout=ffe5,empty=0,full=0
+# pass
+# [1475 ns]sam:reset=0,w_enb=0,r_enb=0,din=5602,dout=ffe5,empty=0,full=0
+# pass
+# [1485 ns]sam:reset=0,w_enb=0,r_enb=0,din=5602,dout=ffe5,empty=0,full=0
+# pass
+# [1495 ns]sam:reset=0,w_enb=0,r_enb=1,din=2b94,dout=ffff,empty=0,full=0
+# pass
+# [1505 ns]sam:reset=0,w_enb=0,r_enb=0,din=2b94,dout=ffff,empty=0,full=0
+# pass
+# [1515 ns]sam:reset=0,w_enb=0,r_enb=1,din=4dda,dout=80ed,empty=0,full=0
+# pass
+# [1525 ns]sam:reset=0,w_enb=0,r_enb=0,din=4dda,dout=80ed,empty=0,full=0
+# pass
+# [1535 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=80ed,empty=0,full=0
+# pass
+# [1545 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=80ed,empty=0,full=0
+# pass
+# [1555 ns]sam:reset=0,w_enb=0,r_enb=1,din=38b2,dout=7e7f,empty=0,full=0
+# pass
+# [1565 ns]sam:reset=0,w_enb=0,r_enb=0,din=38b2,dout=7e7f,empty=0,full=0
+# pass
+# [1575 ns]sam:reset=0,w_enb=0,r_enb=1,din=f7b3,dout=0,empty=1,full=0
+# pass
+# [1585 ns]sam:reset=0,w_enb=0,r_enb=0,din=f7b3,dout=0,empty=1,full=0
+# pass
+# [1595 ns]sam:reset=0,w_enb=0,r_enb=0,din=44b4,dout=0,empty=1,full=0
+# pass
+# [1605 ns]sam:reset=0,w_enb=0,r_enb=0,din=44b4,dout=0,empty=1,full=0
+# pass
+# [1615 ns]sam:reset=0,w_enb=0,r_enb=0,din=f5c2,dout=0,empty=1,full=0
+# pass
+# [1625 ns]sam:reset=0,w_enb=0,r_enb=0,din=f5c2,dout=0,empty=1,full=0
+# pass
+# [1635 ns]sam:reset=0,w_enb=0,r_enb=0,din=bd12,dout=0,empty=1,full=0
+# pass
+# [1645 ns]sam:reset=0,w_enb=0,r_enb=0,din=bd12,dout=0,empty=1,full=0
+# pass
+# [1655 ns]sam:reset=0,w_enb=1,r_enb=0,din=1724,dout=0,empty=0,full=0
+# pass
+# [1665 ns]sam:reset=0,w_enb=0,r_enb=0,din=1724,dout=0,empty=0,full=0
+# pass
+# [1675 ns]sam:reset=0,w_enb=0,r_enb=0,din=af48,dout=0,empty=0,full=0
+# pass
+# [1685 ns]sam:reset=0,w_enb=0,r_enb=0,din=af48,dout=0,empty=0,full=0
+# pass
+# [1695 ns]sam:reset=0,w_enb=0,r_enb=1,din=7f74,dout=1724,empty=1,full=0
+# pass
+# [1705 ns]sam:reset=0,w_enb=0,r_enb=0,din=7f74,dout=1724,empty=1,full=0
+# pass
+# [1715 ns]sam:reset=0,w_enb=1,r_enb=0,din=e5cc,dout=1724,empty=0,full=0
+# pass
+# [1725 ns]sam:reset=0,w_enb=0,r_enb=0,din=e5cc,dout=1724,empty=0,full=0
+# pass
+# [1735 ns]sam:reset=0,w_enb=0,r_enb=1,din=1f9c,dout=e5cc,empty=1,full=0
+# pass
+# [1745 ns]sam:reset=0,w_enb=0,r_enb=0,din=1f9c,dout=e5cc,empty=1,full=0
+# pass
+# [1755 ns]sam:reset=0,w_enb=1,r_enb=1,din=c46b,dout=e5cc,empty=0,full=0
+# pass
+# [1765 ns]sam:reset=0,w_enb=0,r_enb=0,din=c46b,dout=e5cc,empty=0,full=0
+# pass
+# [1775 ns]sam:reset=0,w_enb=1,r_enb=0,din=0,dout=e5cc,empty=0,full=0
+# pass
+# [1785 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=e5cc,empty=0,full=0
+# pass
+# [1795 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=e5cc,empty=0,full=0
+# pass
+# [1805 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=e5cc,empty=0,full=0
+# pass
+# [1815 ns]sam:reset=0,w_enb=1,r_enb=0,din=443c,dout=e5cc,empty=0,full=0
+# pass
+# [1825 ns]sam:reset=0,w_enb=0,r_enb=0,din=443c,dout=e5cc,empty=0,full=0
+# pass
+# [1835 ns]sam:reset=0,w_enb=1,r_enb=0,din=4544,dout=e5cc,empty=0,full=0
+# pass
+# [1845 ns]sam:reset=0,w_enb=0,r_enb=0,din=4544,dout=e5cc,empty=0,full=0
+# pass
+# [1855 ns]sam:reset=0,w_enb=1,r_enb=0,din=7f69,dout=e5cc,empty=0,full=0
+# pass
+# [1865 ns]sam:reset=0,w_enb=0,r_enb=0,din=7f69,dout=e5cc,empty=0,full=0
+# pass
+# [1875 ns]sam:reset=0,w_enb=0,r_enb=1,din=6a78,dout=c46b,empty=0,full=0
+# pass
+# [1885 ns]sam:reset=0,w_enb=0,r_enb=0,din=6a78,dout=c46b,empty=0,full=0
+# pass
+# [1895 ns]sam:reset=0,w_enb=1,r_enb=0,din=869a,dout=c46b,empty=0,full=0
+# pass
+# [1905 ns]sam:reset=0,w_enb=0,r_enb=0,din=869a,dout=c46b,empty=0,full=0
+# pass
+# [1915 ns]sam:reset=0,w_enb=0,r_enb=1,din=ca17,dout=0,empty=0,full=0
+# pass
+# [1925 ns]sam:reset=0,w_enb=0,r_enb=0,din=ca17,dout=0,empty=0,full=0
+# pass
+# [1935 ns]sam:reset=0,w_enb=1,r_enb=1,din=60b2,dout=443c,empty=0,full=0
+# pass
+# [1945 ns]sam:reset=0,w_enb=0,r_enb=0,din=60b2,dout=443c,empty=0,full=0
+# pass
+# [1955 ns]sam:reset=0,w_enb=0,r_enb=1,din=47c0,dout=4544,empty=0,full=0
+# pass
+# [1965 ns]sam:reset=0,w_enb=0,r_enb=0,din=47c0,dout=4544,empty=0,full=0
+# pass
+# [1975 ns]sam:reset=0,w_enb=1,r_enb=0,din=9f62,dout=4544,empty=0,full=0
+# pass
+# [1985 ns]sam:reset=0,w_enb=0,r_enb=0,din=9f62,dout=4544,empty=0,full=0
+# pass
+# [1995 ns]sam:reset=0,w_enb=1,r_enb=1,din=17a2,dout=7f69,empty=0,full=0
+# pass
+# [2005 ns]sam:reset=0,w_enb=0,r_enb=0,din=17a2,dout=7f69,empty=0,full=0
+# pass
+# [2015 ns]sam:reset=0,w_enb=1,r_enb=1,din=94fd,dout=869a,empty=0,full=0
+# pass
+# [2025 ns]sam:reset=0,w_enb=0,r_enb=0,din=94fd,dout=869a,empty=0,full=0
+# pass
+# [2035 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=869a,empty=0,full=0
+# pass
+# [2045 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=869a,empty=0,full=0
+# pass
+# [2055 ns]sam:reset=0,w_enb=1,r_enb=0,din=2c8f,dout=869a,empty=0,full=0
+# pass
+# [2065 ns]sam:reset=0,w_enb=0,r_enb=0,din=2c8f,dout=869a,empty=0,full=0
+# pass
+# [2075 ns]sam:reset=0,w_enb=1,r_enb=0,din=2590,dout=869a,empty=0,full=0
+# pass
+# [2085 ns]sam:reset=0,w_enb=0,r_enb=0,din=2590,dout=869a,empty=0,full=0
+# pass
+# [2095 ns]sam:reset=0,w_enb=0,r_enb=0,din=b815,dout=869a,empty=0,full=0
+# pass
+# [2105 ns]sam:reset=0,w_enb=0,r_enb=0,din=b815,dout=869a,empty=0,full=0
+# pass
+# [2115 ns]sam:reset=0,w_enb=1,r_enb=1,din=d88c,dout=60b2,empty=0,full=0
+# pass
+# [2125 ns]sam:reset=0,w_enb=0,r_enb=0,din=d88c,dout=60b2,empty=0,full=0
+# pass
+# [2135 ns]sam:reset=0,w_enb=1,r_enb=1,din=331,dout=9f62,empty=0,full=0
+# pass
+# [2145 ns]sam:reset=0,w_enb=0,r_enb=0,din=331,dout=9f62,empty=0,full=0
+# pass
+# [2155 ns]sam:reset=0,w_enb=0,r_enb=0,din=700b,dout=9f62,empty=0,full=0
+# pass
+# [2165 ns]sam:reset=0,w_enb=0,r_enb=0,din=700b,dout=9f62,empty=0,full=0
+# pass
+# [2175 ns]sam:reset=0,w_enb=0,r_enb=1,din=8913,dout=17a2,empty=0,full=0
+# pass
+# [2185 ns]sam:reset=0,w_enb=0,r_enb=0,din=8913,dout=17a2,empty=0,full=0
+# pass
+# [2195 ns]sam:reset=0,w_enb=0,r_enb=0,din=35a2,dout=17a2,empty=0,full=0
+# pass
+# [2205 ns]sam:reset=0,w_enb=0,r_enb=0,din=35a2,dout=17a2,empty=0,full=0
+# pass
+# [2215 ns]sam:reset=0,w_enb=0,r_enb=0,din=6282,dout=17a2,empty=0,full=0
+# pass
+# [2225 ns]sam:reset=0,w_enb=0,r_enb=0,din=6282,dout=17a2,empty=0,full=0
+# pass
+# [2235 ns]sam:reset=0,w_enb=0,r_enb=1,din=da98,dout=94fd,empty=0,full=0
+# pass
+# [2245 ns]sam:reset=0,w_enb=0,r_enb=0,din=da98,dout=94fd,empty=0,full=0
+# pass
+# [2255 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=94fd,empty=0,full=0
+# pass
+# [2265 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=94fd,empty=0,full=0
+# pass
+# [2275 ns]sam:reset=0,w_enb=1,r_enb=1,din=b64c,dout=2c8f,empty=0,full=0
+# pass
+# [2285 ns]sam:reset=0,w_enb=0,r_enb=0,din=b64c,dout=2c8f,empty=0,full=0
+# pass
+# [2295 ns]sam:reset=0,w_enb=0,r_enb=1,din=e887,dout=2590,empty=0,full=0
+# pass
+# [2305 ns]sam:reset=0,w_enb=0,r_enb=0,din=e887,dout=2590,empty=0,full=0
+# pass
+# [2315 ns]sam:reset=0,w_enb=0,r_enb=1,din=6ed,dout=d88c,empty=0,full=0
+# pass
+# [2325 ns]sam:reset=0,w_enb=0,r_enb=0,din=6ed,dout=d88c,empty=0,full=0
+# pass
+# [2335 ns]sam:reset=0,w_enb=0,r_enb=1,din=3af5,dout=331,empty=0,full=0
+# pass
+# [2345 ns]sam:reset=0,w_enb=0,r_enb=0,din=3af5,dout=331,empty=0,full=0
+# pass
+# [2355 ns]sam:reset=0,w_enb=1,r_enb=1,din=0,dout=b64c,empty=0,full=0
+# pass
+# [2365 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=b64c,empty=0,full=0
+# pass
+# [2375 ns]sam:reset=0,w_enb=1,r_enb=1,din=cf28,dout=0,empty=0,full=0
+# pass
+# [2385 ns]sam:reset=0,w_enb=0,r_enb=0,din=cf28,dout=0,empty=0,full=0
+# pass
+# [2395 ns]sam:reset=0,w_enb=0,r_enb=1,din=7d25,dout=cf28,empty=1,full=0
+# pass
+# [2405 ns]sam:reset=0,w_enb=0,r_enb=0,din=7d25,dout=cf28,empty=1,full=0
+# pass
+# [2415 ns]sam:reset=0,w_enb=1,r_enb=1,din=1df0,dout=cf28,empty=0,full=0
+# pass
+# [2425 ns]sam:reset=0,w_enb=0,r_enb=0,din=1df0,dout=cf28,empty=0,full=0
+# pass
+# [2435 ns]sam:reset=0,w_enb=0,r_enb=0,din=9460,dout=cf28,empty=0,full=0
+# pass
+# [2445 ns]sam:reset=0,w_enb=0,r_enb=0,din=9460,dout=cf28,empty=0,full=0
+# pass
+# [2455 ns]sam:reset=0,w_enb=0,r_enb=0,din=b6d8,dout=cf28,empty=0,full=0
+# pass
+# [2465 ns]sam:reset=0,w_enb=0,r_enb=0,din=b6d8,dout=cf28,empty=0,full=0
+# pass
+# [2475 ns]sam:reset=0,w_enb=1,r_enb=1,din=d057,dout=1df0,empty=0,full=0
+# pass
+# [2485 ns]sam:reset=0,w_enb=0,r_enb=0,din=d057,dout=1df0,empty=0,full=0
+# pass
+# [2495 ns]sam:reset=0,w_enb=1,r_enb=0,din=c5a9,dout=1df0,empty=0,full=0
+# pass
+# [2505 ns]sam:reset=0,w_enb=0,r_enb=0,din=c5a9,dout=1df0,empty=0,full=0
+# pass
+# [2515 ns]sam:reset=0,w_enb=0,r_enb=0,din=c13a,dout=1df0,empty=0,full=0
+# pass
+# [2525 ns]sam:reset=0,w_enb=0,r_enb=0,din=c13a,dout=1df0,empty=0,full=0
+# pass
+# [2535 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=1df0,empty=0,full=0
+# pass
+# [2545 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=1df0,empty=0,full=0
+# pass
+# [2555 ns]sam:reset=0,w_enb=1,r_enb=0,din=6e3,dout=1df0,empty=0,full=0
+# pass
+# [2565 ns]sam:reset=0,w_enb=0,r_enb=0,din=6e3,dout=1df0,empty=0,full=0
+# pass
+# [2575 ns]sam:reset=0,w_enb=1,r_enb=1,din=af58,dout=d057,empty=0,full=0
+# pass
+# [2585 ns]sam:reset=0,w_enb=0,r_enb=0,din=af58,dout=d057,empty=0,full=0
+# pass
+# [2595 ns]sam:reset=0,w_enb=0,r_enb=1,din=0,dout=c5a9,empty=0,full=0
+# pass
+# [2605 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=c5a9,empty=0,full=0
+# pass
+# [2615 ns]sam:reset=0,w_enb=0,r_enb=1,din=7fc4,dout=6e3,empty=0,full=0
+# pass
+# [2625 ns]sam:reset=0,w_enb=0,r_enb=0,din=7fc4,dout=6e3,empty=0,full=0
+# pass
+# [2635 ns]sam:reset=0,w_enb=0,r_enb=0,din=6617,dout=6e3,empty=0,full=0
+# pass
+# [2645 ns]sam:reset=0,w_enb=0,r_enb=0,din=6617,dout=6e3,empty=0,full=0
+# pass
+# [2655 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=6e3,empty=0,full=0
+# pass
+# [2665 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=6e3,empty=0,full=0
+# pass
+# [2675 ns]sam:reset=0,w_enb=0,r_enb=0,din=e781,dout=6e3,empty=0,full=0
+# pass
+# [2685 ns]sam:reset=0,w_enb=0,r_enb=0,din=e781,dout=6e3,empty=0,full=0
+# pass
+# [2695 ns]sam:reset=0,w_enb=1,r_enb=1,din=2eaf,dout=af58,empty=0,full=0
+# pass
+# [2705 ns]sam:reset=0,w_enb=0,r_enb=0,din=2eaf,dout=af58,empty=0,full=0
+# pass
+# [2715 ns]sam:reset=0,w_enb=0,r_enb=0,din=f2be,dout=af58,empty=0,full=0
+# pass
+# [2725 ns]sam:reset=0,w_enb=0,r_enb=0,din=f2be,dout=af58,empty=0,full=0
+# pass
+# [2735 ns]sam:reset=0,w_enb=0,r_enb=1,din=3515,dout=2eaf,empty=1,full=0
+# pass
+# [2745 ns]sam:reset=0,w_enb=0,r_enb=0,din=3515,dout=2eaf,empty=1,full=0
+# pass
+# [2755 ns]sam:reset=0,w_enb=0,r_enb=1,din=351f,dout=2eaf,empty=1,full=0
+# pass
+# [2765 ns]sam:reset=0,w_enb=0,r_enb=0,din=351f,dout=2eaf,empty=1,full=0
+# pass
+# [2775 ns]sam:reset=0,w_enb=0,r_enb=0,din=3552,dout=2eaf,empty=1,full=0
+# pass
+# [2785 ns]sam:reset=0,w_enb=0,r_enb=0,din=3552,dout=2eaf,empty=1,full=0
+# pass
+# [2795 ns]sam:reset=0,w_enb=1,r_enb=0,din=b87f,dout=2eaf,empty=0,full=0
+# pass
+# [2805 ns]sam:reset=0,w_enb=0,r_enb=0,din=b87f,dout=2eaf,empty=0,full=0
+# pass
+# [2815 ns]sam:reset=0,w_enb=1,r_enb=1,din=f9ad,dout=b87f,empty=0,full=0
+# pass
+# [2825 ns]sam:reset=0,w_enb=0,r_enb=0,din=f9ad,dout=b87f,empty=0,full=0
+# pass
+# [2835 ns]sam:reset=0,w_enb=0,r_enb=1,din=c0b4,dout=f9ad,empty=1,full=0
+# pass
+# [2845 ns]sam:reset=0,w_enb=0,r_enb=0,din=c0b4,dout=f9ad,empty=1,full=0
+# pass
+# [2855 ns]sam:reset=0,w_enb=0,r_enb=1,din=e805,dout=f9ad,empty=1,full=0
+# pass
+# [2865 ns]sam:reset=0,w_enb=0,r_enb=0,din=e805,dout=f9ad,empty=1,full=0
+# pass
+# [2875 ns]sam:reset=0,w_enb=0,r_enb=1,din=4d7e,dout=f9ad,empty=1,full=0
+# pass
+# [2885 ns]sam:reset=0,w_enb=0,r_enb=0,din=4d7e,dout=f9ad,empty=1,full=0
+# pass
+# [2895 ns]sam:reset=0,w_enb=1,r_enb=0,din=3fc8,dout=f9ad,empty=0,full=0
+# pass
+# [2905 ns]sam:reset=0,w_enb=0,r_enb=0,din=3fc8,dout=f9ad,empty=0,full=0
+# pass
+# [2915 ns]sam:reset=0,w_enb=0,r_enb=0,din=ce2c,dout=f9ad,empty=0,full=0
+# pass
+# [2925 ns]sam:reset=0,w_enb=0,r_enb=0,din=ce2c,dout=f9ad,empty=0,full=0
+# pass
+# [2935 ns]sam:reset=0,w_enb=0,r_enb=1,din=63d3,dout=3fc8,empty=1,full=0
+# pass
+# [2945 ns]sam:reset=0,w_enb=0,r_enb=0,din=63d3,dout=3fc8,empty=1,full=0
+# pass
+# [2955 ns]sam:reset=0,w_enb=1,r_enb=0,din=271b,dout=3fc8,empty=0,full=0
+# pass
+# [2965 ns]sam:reset=0,w_enb=0,r_enb=0,din=271b,dout=3fc8,empty=0,full=0
+# pass
+# [2975 ns]sam:reset=0,w_enb=0,r_enb=0,din=4232,dout=3fc8,empty=0,full=0
+# pass
+# [2985 ns]sam:reset=0,w_enb=0,r_enb=0,din=4232,dout=3fc8,empty=0,full=0
+# pass
+# [2995 ns]sam:reset=0,w_enb=1,r_enb=0,din=693b,dout=3fc8,empty=0,full=0
+# pass
+# [3005 ns]sam:reset=0,w_enb=0,r_enb=0,din=693b,dout=3fc8,empty=0,full=0
+# pass
+# [3015 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=3fc8,empty=0,full=0
+# pass
+# [3025 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=3fc8,empty=0,full=0
+# pass
+# [3035 ns]sam:reset=0,w_enb=0,r_enb=1,din=bf1,dout=271b,empty=0,full=0
+# pass
+# [3045 ns]sam:reset=0,w_enb=0,r_enb=0,din=bf1,dout=271b,empty=0,full=0
+# pass
+# [3055 ns]sam:reset=0,w_enb=1,r_enb=0,din=5621,dout=271b,empty=0,full=0
+# pass
+# [3065 ns]sam:reset=0,w_enb=0,r_enb=0,din=5621,dout=271b,empty=0,full=0
+# pass
+# [3075 ns]sam:reset=0,w_enb=1,r_enb=1,din=2074,dout=693b,empty=0,full=0
+# pass
+# [3085 ns]sam:reset=0,w_enb=0,r_enb=0,din=2074,dout=693b,empty=0,full=0
+# pass
+# [3095 ns]sam:reset=0,w_enb=1,r_enb=0,din=e5de,dout=693b,empty=0,full=0
+# pass
+# [3105 ns]sam:reset=0,w_enb=0,r_enb=0,din=e5de,dout=693b,empty=0,full=0
+# pass
+# [3115 ns]sam:reset=0,w_enb=1,r_enb=1,din=ab8c,dout=5621,empty=0,full=0
+# pass
+# [3125 ns]sam:reset=0,w_enb=0,r_enb=0,din=ab8c,dout=5621,empty=0,full=0
+# pass
+# [3135 ns]sam:reset=0,w_enb=1,r_enb=0,din=52f3,dout=5621,empty=0,full=0
+# pass
+# [3145 ns]sam:reset=0,w_enb=0,r_enb=0,din=52f3,dout=5621,empty=0,full=0
+# pass
+# [3155 ns]sam:reset=0,w_enb=1,r_enb=1,din=8943,dout=2074,empty=0,full=0
+# pass
+# [3165 ns]sam:reset=0,w_enb=0,r_enb=0,din=8943,dout=2074,empty=0,full=0
+# pass
+# [3175 ns]sam:reset=0,w_enb=0,r_enb=0,din=9e51,dout=2074,empty=0,full=0
+# pass
+# [3185 ns]sam:reset=0,w_enb=0,r_enb=0,din=9e51,dout=2074,empty=0,full=0
+# pass
+# [3195 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=2074,empty=0,full=0
+# pass
+# [3205 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=2074,empty=0,full=0
+# pass
+# [3215 ns]sam:reset=0,w_enb=0,r_enb=1,din=0,dout=e5de,empty=0,full=0
+# pass
+# [3225 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=e5de,empty=0,full=0
+# pass
+# [3235 ns]sam:reset=0,w_enb=1,r_enb=0,din=62a9,dout=e5de,empty=0,full=0
+# pass
+# [3245 ns]sam:reset=0,w_enb=0,r_enb=0,din=62a9,dout=e5de,empty=0,full=0
+# pass
+# [3255 ns]sam:reset=0,w_enb=1,r_enb=1,din=2148,dout=ab8c,empty=0,full=0
+# pass
+# [3265 ns]sam:reset=0,w_enb=0,r_enb=0,din=2148,dout=ab8c,empty=0,full=0
+# pass
+# [3275 ns]sam:reset=0,w_enb=0,r_enb=0,din=6972,dout=ab8c,empty=0,full=0
+# pass
+# [3285 ns]sam:reset=0,w_enb=0,r_enb=0,din=6972,dout=ab8c,empty=0,full=0
+# pass
+# [3295 ns]sam:reset=0,w_enb=1,r_enb=0,din=ff3f,dout=ab8c,empty=0,full=0
+# pass
+# [3305 ns]sam:reset=0,w_enb=0,r_enb=0,din=ff3f,dout=ab8c,empty=0,full=0
+# pass
+# [3315 ns]sam:reset=0,w_enb=1,r_enb=0,din=88d2,dout=ab8c,empty=0,full=0
+# pass
+# [3325 ns]sam:reset=0,w_enb=0,r_enb=0,din=88d2,dout=ab8c,empty=0,full=0
+# pass
+# [3335 ns]sam:reset=0,w_enb=0,r_enb=0,din=eab,dout=ab8c,empty=0,full=0
+# pass
+# [3345 ns]sam:reset=0,w_enb=0,r_enb=0,din=eab,dout=ab8c,empty=0,full=0
+# pass
+# [3355 ns]sam:reset=0,w_enb=1,r_enb=0,din=eb18,dout=ab8c,empty=0,full=0
+# pass
+# [3365 ns]sam:reset=0,w_enb=0,r_enb=0,din=eb18,dout=ab8c,empty=0,full=0
+# pass
+# [3375 ns]sam:reset=0,w_enb=0,r_enb=0,din=b89c,dout=ab8c,empty=0,full=0
+# pass
+# [3385 ns]sam:reset=0,w_enb=0,r_enb=0,din=b89c,dout=ab8c,empty=0,full=0
+# pass
+# [3395 ns]sam:reset=0,w_enb=1,r_enb=1,din=3fd8,dout=52f3,empty=0,full=0
+# pass
+# [3405 ns]sam:reset=0,w_enb=0,r_enb=0,din=3fd8,dout=52f3,empty=0,full=0
+# pass
+# [3415 ns]sam:reset=0,w_enb=1,r_enb=1,din=0,dout=8943,empty=0,full=0
+# pass
+# [3425 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=8943,empty=0,full=0
+# pass
+# [3435 ns]sam:reset=0,w_enb=0,r_enb=0,din=d719,dout=8943,empty=0,full=0
+# pass
+# [3445 ns]sam:reset=0,w_enb=0,r_enb=0,din=d719,dout=8943,empty=0,full=0
+# pass
+# [3455 ns]sam:reset=0,w_enb=0,r_enb=0,din=1a1c,dout=8943,empty=0,full=0
+# pass
+# [3465 ns]sam:reset=0,w_enb=0,r_enb=0,din=1a1c,dout=8943,empty=0,full=0
+# pass
+# [3475 ns]sam:reset=0,w_enb=0,r_enb=0,din=399d,dout=8943,empty=0,full=0
+# pass
+# [3485 ns]sam:reset=0,w_enb=0,r_enb=0,din=399d,dout=8943,empty=0,full=0
+# pass
+# [3495 ns]sam:reset=0,w_enb=1,r_enb=1,din=26df,dout=62a9,empty=0,full=0
+# pass
+# [3505 ns]sam:reset=0,w_enb=0,r_enb=0,din=26df,dout=62a9,empty=0,full=0
+# pass
+# [3515 ns]sam:reset=0,w_enb=0,r_enb=1,din=7f0c,dout=2148,empty=0,full=0
+# pass
+# [3525 ns]sam:reset=0,w_enb=0,r_enb=0,din=7f0c,dout=2148,empty=0,full=0
+# pass
+# [3535 ns]sam:reset=0,w_enb=1,r_enb=0,din=a560,dout=2148,empty=0,full=0
+# pass
+# [3545 ns]sam:reset=0,w_enb=0,r_enb=0,din=a560,dout=2148,empty=0,full=0
+# pass
+# [3555 ns]sam:reset=0,w_enb=0,r_enb=0,din=bc86,dout=2148,empty=0,full=0
+# pass
+# [3565 ns]sam:reset=0,w_enb=0,r_enb=0,din=bc86,dout=2148,empty=0,full=0
+# pass
+# [3575 ns]sam:reset=0,w_enb=0,r_enb=0,din=199b,dout=2148,empty=0,full=0
+# pass
+# [3585 ns]sam:reset=0,w_enb=0,r_enb=0,din=199b,dout=2148,empty=0,full=0
+# pass
+# [3595 ns]sam:reset=0,w_enb=0,r_enb=1,din=5d43,dout=ff3f,empty=0,full=0
+# pass
+# [3605 ns]sam:reset=0,w_enb=0,r_enb=0,din=5d43,dout=ff3f,empty=0,full=0
+# pass
+# [3615 ns]sam:reset=0,w_enb=1,r_enb=1,din=0,dout=88d2,empty=0,full=0
+# pass
+# [3625 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=88d2,empty=0,full=0
+# pass
+# [3635 ns]sam:reset=0,w_enb=0,r_enb=0,din=fb5e,dout=88d2,empty=0,full=0
+# pass
+# [3645 ns]sam:reset=0,w_enb=0,r_enb=0,din=fb5e,dout=88d2,empty=0,full=0
+# pass
+# [3655 ns]sam:reset=0,w_enb=1,r_enb=0,din=4bad,dout=88d2,empty=0,full=0
+# pass
+# [3665 ns]sam:reset=0,w_enb=0,r_enb=0,din=4bad,dout=88d2,empty=0,full=0
+# pass
+# [3675 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=88d2,empty=0,full=0
+# pass
+# [3685 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=88d2,empty=0,full=0
+# pass
+# [3695 ns]sam:reset=0,w_enb=0,r_enb=1,din=70a,dout=eb18,empty=0,full=0
+# pass
+# [3705 ns]sam:reset=0,w_enb=0,r_enb=0,din=70a,dout=eb18,empty=0,full=0
+# pass
+# [3715 ns]sam:reset=0,w_enb=0,r_enb=0,din=f23d,dout=eb18,empty=0,full=0
+# pass
+# [3725 ns]sam:reset=0,w_enb=0,r_enb=0,din=f23d,dout=eb18,empty=0,full=0
+# pass
+# [3735 ns]sam:reset=0,w_enb=1,r_enb=1,din=0,dout=3fd8,empty=0,full=0
+# pass
+# [3745 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=3fd8,empty=0,full=0
+# pass
+# [3755 ns]sam:reset=0,w_enb=0,r_enb=1,din=e223,dout=0,empty=0,full=0
+# pass
+# [3765 ns]sam:reset=0,w_enb=0,r_enb=0,din=e223,dout=0,empty=0,full=0
+# pass
+# [3775 ns]sam:reset=0,w_enb=1,r_enb=0,din=b04b,dout=0,empty=0,full=0
+# pass
+# [3785 ns]sam:reset=0,w_enb=0,r_enb=0,din=b04b,dout=0,empty=0,full=0
+# pass
+# [3795 ns]sam:reset=0,w_enb=1,r_enb=1,din=612a,dout=26df,empty=0,full=0
+# pass
+# [3805 ns]sam:reset=0,w_enb=0,r_enb=0,din=612a,dout=26df,empty=0,full=0
+# pass
+# [3815 ns]sam:reset=0,w_enb=1,r_enb=1,din=47f8,dout=a560,empty=0,full=0
+# pass
+# [3825 ns]sam:reset=0,w_enb=0,r_enb=0,din=47f8,dout=a560,empty=0,full=0
+# pass
+# [3835 ns]sam:reset=0,w_enb=1,r_enb=1,din=7ee6,dout=0,empty=0,full=0
+# pass
+# [3845 ns]sam:reset=0,w_enb=0,r_enb=0,din=7ee6,dout=0,empty=0,full=0
+# pass
+# [3855 ns]sam:reset=0,w_enb=0,r_enb=1,din=99c9,dout=4bad,empty=0,full=0
+# pass
+# [3865 ns]sam:reset=0,w_enb=0,r_enb=0,din=99c9,dout=4bad,empty=0,full=0
+# pass
+# [3875 ns]sam:reset=0,w_enb=0,r_enb=1,din=ffff,dout=0,empty=0,full=0
+# pass
+# [3885 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=0,empty=0,full=0
+# pass
+# [3895 ns]sam:reset=0,w_enb=0,r_enb=1,din=ffff,dout=b04b,empty=0,full=0
+# pass
+# [3905 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=b04b,empty=0,full=0
+# pass
+# [3915 ns]sam:reset=0,w_enb=0,r_enb=0,din=b127,dout=b04b,empty=0,full=0
+# pass
+# [3925 ns]sam:reset=0,w_enb=0,r_enb=0,din=b127,dout=b04b,empty=0,full=0
+# pass
+# [3935 ns]sam:reset=0,w_enb=1,r_enb=1,din=724a,dout=612a,empty=0,full=0
+# pass
+# [3945 ns]sam:reset=0,w_enb=0,r_enb=0,din=724a,dout=612a,empty=0,full=0
+# pass
+# [3955 ns]sam:reset=0,w_enb=0,r_enb=1,din=55a8,dout=47f8,empty=0,full=0
+# pass
+# [3965 ns]sam:reset=0,w_enb=0,r_enb=0,din=55a8,dout=47f8,empty=0,full=0
+# pass
+# [3975 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=47f8,empty=0,full=0
+# pass
+# [3985 ns]sam:reset=0,w_enb=0,r_enb=0,din=ffff,dout=47f8,empty=0,full=0
+# pass
+# [3995 ns]sam:reset=0,w_enb=1,r_enb=1,din=fefe,dout=7ee6,empty=0,full=0
+# pass
+# [4005 ns]sam:reset=0,w_enb=0,r_enb=0,din=fefe,dout=7ee6,empty=0,full=0
+# pass
+# [4015 ns]sam:reset=0,w_enb=0,r_enb=0,din=6b25,dout=7ee6,empty=0,full=0
+# pass
+# [4025 ns]sam:reset=0,w_enb=0,r_enb=0,din=6b25,dout=7ee6,empty=0,full=0
+# pass
+# [4035 ns]sam:reset=0,w_enb=0,r_enb=1,din=0,dout=724a,empty=0,full=0
+# pass
+# [4045 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=724a,empty=0,full=0
+# pass
+# [4055 ns]sam:reset=0,w_enb=0,r_enb=1,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4065 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4075 ns]sam:reset=0,w_enb=0,r_enb=1,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4085 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4095 ns]sam:reset=0,w_enb=0,r_enb=1,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4105 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4115 ns]sam:reset=0,w_enb=0,r_enb=1,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4125 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4135 ns]sam:reset=0,w_enb=0,r_enb=1,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4145 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4155 ns]sam:reset=0,w_enb=0,r_enb=1,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4165 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4175 ns]sam:reset=0,w_enb=0,r_enb=1,din=0,dout=fefe,empty=1,full=0
+# pass
+# [4185 ns]sam:reset=0,w_enb=0,r_enb=0,din=0,dout=fefe,empty=1,full=0
+# pass
+# end time = 4185 ns
+# UVM_INFO E:/modeltech64_2020.4/verilog_src/uvm-1.2/src/base/uvm_objection.svh(1270) @ 4185 ns: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# coverage = 100.000000
+# published_count = 419
+# checked_count = 419
+# write_count = 86
+# read_count = 86
+# write_request_count = 86
+# read_request_count = 100
+# rejected_write_count = 0
+# rejected_read_count = 14
+# both_empty_count = 3
+# both_middle_count = 39
+# both_full_count = 0
+# reset_count = 0
+# FINAL PASS
+# UVM_INFO E:/modeltech64_2020.4/verilog_src/uvm-1.2/src/base/uvm_report_server.svh(847) @ 4185 ns: reporter [UVM/REPORT/SERVER] 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    4
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVM/COMP/NAMECHECK]     1
+# [UVM/RELNOTES]     1
+# 
+# ** Note: $finish    : E:/modeltech64_2020.4/verilog_src/uvm-1.2/src/base/uvm_root.svh(517)
+#    Time: 4185 ns  Iteration: 72  Instance: /tb_top
+# Break in Task uvm_pkg/uvm_root::run_test at E:/modeltech64_2020.4/verilog_src/uvm-1.2/src/base/uvm_root.svh line 517
+# Stopped at E:/modeltech64_2020.4/verilog_src/uvm-1.2/src/base/uvm_root.svh line 517
+# ** Warning: (vsim-19053) Option '-file' has been deprecated. Please use option '-output' instead.
+# End time: 08:03:40 on Oct 16,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
